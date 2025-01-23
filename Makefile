@@ -29,4 +29,3 @@ test: $(GTEST_OBJS) $(SRC_DIR)/unordered_list.o
 clean:
 	rm -f $(SRC_DIR)/*.o $(TEST_DIR)/*.o $(TARGET) $(GTEST_TARGET)
 
-.PHONY: all test clean
